@@ -1,0 +1,47 @@
+.sweet-card {
+  background: #f0faff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+}
+
+.sweet-card h3 {
+  margin: 0 0 5px;
+  color: #0288d1;
+}
+
+.sweet-card p {
+  margin: 5px 0;
+  color: #333;
+}
+
+.actions {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  padding: 6px 12px;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-purchase {
+  background-color: #ef5350;
+}
+
+.btn-delete {
+  background-color: red;
+}
+
+
+.btn-restock {
+  background-color: #66bb6a;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
